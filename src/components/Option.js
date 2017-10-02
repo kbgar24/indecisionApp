@@ -9,7 +9,12 @@ const Option = (props) => {
   return(
     <div>
       <p>{ props.optionText }</p>
-      <button onClick={ handleDeleteOneOption }>Remove</button>
+      <button
+        onClick={ handleDeleteOneOption }
+        className="button button--link"
+      >
+        Remove
+      </button>
     </div>
   );
 }
