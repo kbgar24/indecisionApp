@@ -36,3 +36,12 @@ button {
 button:disabled {
   cursor: default;
 }
+
+//Add option Button
+.button--add-option {
+  width: auto;
+  font-size: $m-size;
+  margin: 1.6rem;
+  padding: 1.6rem;
+  font-weight: 100px;
+}
